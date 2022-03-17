@@ -1,79 +1,32 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width", initial-scale="1">
-        <title>Survey Document</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
-    </head>
-    <body>
-        <h1 id="title">Survey Form</h1>
-        <hr>
-        <section>
-            <div class="container">
-                <div id="description">
-                    <p><em>Let us Know how we can serve you better</em></p>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Login Page-->
+    <div class="login-form">
+        <form>
+            <h1>Login</h1>
+            <div class="content">
+                <div class="input-text">
+                    <input type="email" placeholder="Enter your Email">
                 </div>
-                <form id="survey-form">
-                    <div class="row-tab"><br>
-                        <label>Name</label>
-                    </div>
-                    <div>
-                        <input type="text" name="Name" value="Enter your name here">
-                    </div>
-                    <div><br>
-                        <label>Email</label>
-                    </div>
-                    <div>
-                        <input type="email" name="Email" value="@">
-                    </div>
-                    <div><br>
-                        <label>Age</label>
-                    </div>
-                    <div>
-                        <input type="number" name="age">
-                    </div>
-                    <div><br>
-                        <label>Which Option best describes your current role</label>
-                    </div>
-                    <div>
-                        <select>
-                            <option>Student</option>
-                            <option>Employee</option>
-                            <option>Unemployed</option>
-                        </select>
-                    </div>
-                    <div><br>
-                        <label>Would you recommend us to a friend?</label>
-                    </div>
-                    <div>
-                        <input type="radio" name="suggest" value="Yes"><label>Yes</label>
-                        <input type="radio" name="suggest"><label>No</label>
-                        <input type="radio" name="suggest"><label>Maybe</label>
-                    </div>
-
-                    <div><br>
-                        <label>What do you like most about us</label>
-                    </div>
-                    <div>
-                        <select>
-                            <option>Select an Option</option>
-                            <option>Selfless Service</option>
-                            <option>Customer Relation</option>
-                        </select>
-                    </div>
-                    <div><br>
-                        <label>How did you hear about us</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" name="tick"><label>Twitter</label>
-                        <input type="checkbox" name="tick"><label>Facebook</label>
-                        <input type="checkbox" name="tick"><label>Telegram</label>
-                    </div>
-                    <br>
-                    <button>Submit</button>
-                </form>
+                <div>
+                    <input type="password" placeholder="Password">
+                </div>
+                <a href="#" class="link">Forgot Your Password?</a>
             </div>
-        </section>
-    </body>
+            <div class="action">
+                <button>Create Account</button>
+                <button>Sign in</button>
+            </div>
+        </form>
+    </div>
+</body>
 </html>
